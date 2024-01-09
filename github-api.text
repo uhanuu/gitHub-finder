@@ -1,0 +1,18 @@
+github api(헤이티오스)
+
+link => https://api.github.com/search/users?q=uhanuu%20in%3Alogin%20type%3Auser&per_page=100&page=1
+
+profile-img => "avatar_url": "https://avatars.githubusercontent.com/u/110734817?v=4"
+- 110734817는 gitHub내 id
+- 즉 "https://avatars.githubusercontent.com/u/{id}?v=4"
+
+gists => "gists_url": "https://api.github.com/users/uhanuu/gists"
+followers => https://api.github.com/users/uhanuu/followers
+following => https://api.github.com/users/uhanuu/following
+repos_url => "repos_url": "https://api.github.com/users/uhanuu/repos"
+
+사용자 상세 조회 => https://api.github.com/users/uhanuu
+- 지금 보니까 key-value로 url주소 주니까 value로 뽑아서 사용하면 될듯?
+
+
+
