@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gitHub-finder</title>
+
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="/">GitHub Finder</a>
+    </header>
+    <main>
+        <div class="search-container">
+            <h1 class="search-container_title">Search GitHub Users</h1>
+            <p class="search-container_subtitle">Enter a username to fetch a user profile and repos</p>
+            <input class="search-container_bar" type="search">
+        </div>
+
+        <div class="userDetails-container">
+            <div class="userDetails-container_profile">
+                <img src="https://www.calliaweb.co.uk/wp-content/uploads/2015/10/300x200.jpg" alt="user-img">
+                <button>View Profile</button>
+            </div>
+
+            <div class="userDetails-container_stats">
+                <div class="gitHubDetails">
+                    <button id="repos">Public Repos: </button>
+                    <button id="gists">Public Gists: </button>
+                    <button id="followers">Followers: </button>
+                    <button id="following">Following: </button>
+                </div>
+                <div class="additionalDetails">
+                    <ul>
+                        <li>Company: </li>
+                        <li>Website/Blog: </li>
+                        <li>Location: </li>
+                        <li>Member Since: </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="userLatest-repos-container">
+            <h1>Latest Repos</h1>
+            <div class="userLatest-repos-container_repo">
+                <a href="/">react-test</a>
+                <div class="userLatest-repos-container_btn">
+                    <button id="stars">Stars: </button>
+                    <button id="watchers">Watchers: : </button>
+                    <button id="forks">Forks: </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>GitHub Finder &copy;</p>
+    </footer>
+</body>
+
+</html>

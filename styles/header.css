@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+    background-color: #4B89DC;
+}
+
+.header a {
+    padding: 10px 5px;
+
+    font-size: 1.5rem;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
